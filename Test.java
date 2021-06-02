@@ -12,6 +12,5 @@ public class Test
         Title hello = new Title("");
         System.out.println(hello.addString());
         Part1 player = new Part1();
-        System.out.print(player);
     }
 }
