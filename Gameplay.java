@@ -35,11 +35,11 @@ public class Gameplay{
         weapon = weapon.toLowerCase();//asks which weapon you would like
         if (weapon.equals("sword")) {
           System.out.println("Your weapon is a " + weapon);
-          damage += 15;
+          damage += 16;
         }
         else {
             System.out.println("You weapon is a " + weapon);
-            damage += 12;
+            damage += 14;
         }
         System.out.println(" ");
         System.out.println("Now that you have a " + weapon + " you can go practice on this dummy!");
