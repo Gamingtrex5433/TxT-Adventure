@@ -27,7 +27,7 @@ public class Part1{
         System.out.println(".");
         System.out.println("Hello " + name);
         System.out.println(".");
-        System.out.println("So " + name + " do you want a sword or an axe?");
+        System.out.println("So " + name + ", do you want a sword or an axe?");
         String weapon = item.nextLine();
         weapon = weapon.toLowerCase();
         if (weapon.equals("sword")) {
@@ -39,7 +39,7 @@ public class Part1{
             damage += 12;
         }
         System.out.println(".");
-        System.out.println("Now that you have a " + weapon + " now you can go practice on this dummy!");
+        System.out.println("Now that you have a " + weapon + " you can go practice on this dummy!");
         System.out.println(".");
         System.out.println(".");
         System.out.println("*you approach the dummy*");
@@ -99,12 +99,14 @@ public class Part1{
                 System.out.println("The elder one shot you!!!");
                 health -= 30;
                 System.out.println("You are dead");
+                System.exit(0);
                 //figure out how to do end game iteration
             }
             else{
                 System.out.println("The elder one shot you!!!");
                 health -= 30;
                 System.out.println("You are dead");
+                System.exit(0);
                 //figure out how to do end game iteration
             }
         }
